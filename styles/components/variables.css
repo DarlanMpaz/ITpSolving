@@ -1,0 +1,22 @@
+:root {
+    /*COLORS*/
+    --white: #FFFFFF;
+    --black: #0B0A0F;
+    --text: #B0B0B0;
+    --text2: #656565;
+    --primary: #38C7BD;
+    --background: #252836;
+
+    /*TEXT-SIZES*/
+    --link-size: 16px;
+    --button-size: 15px;
+    --paragraph-size: 15px;
+    --mobile-size: 18px;
+
+    /*FONTS*/
+    --primary-font: 'Ubuntu Condensed';
+    --secondary-font: 'Montserrat';
+
+    /*TRANSITION*/
+    --default-transition: ease-out 0.3s;
+}

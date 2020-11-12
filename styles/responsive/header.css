@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1200px) {
+    header i.menu-button {
+        display: flex;
+    }
+
+    header .buttons {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        margin: 20px 30px;
+    }
+
+    header i.menu-button {
+        display: flex;
+    }
+
+    header nav, header .buttons {
+        display: none;
+    }
+}

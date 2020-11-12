@@ -1,0 +1,33 @@
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100vh;
+    background: var(--black);
+    padding: 50px;
+    margin: 0;
+    width: 300px;
+    transition: ease-in-out;
+}
+
+.mobile-menu a {
+    margin: 10px 30px;
+    font-size: var(--mobile-size);
+    position: relative;
+}
+
+.mobile-menu a img {
+    position: absolute;
+    transform: translateX(-35px);
+}
+
+.mobile-menu .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

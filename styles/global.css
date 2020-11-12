@@ -1,0 +1,68 @@
+@import url('./components/imports.css');
+@import url('./components/variables.css');
+@import url('./components/buttons.css');
+@import url('./components/modal.css');
+
+* {
+    box-sizing: border-box;
+    font-size: var(--paragraph-size);
+    font-family: var(--primary-font), sans-serif;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 15px 5px;
+}    
+
+a {
+    text-decoration: none;
+    margin: 10px 80px 10px 0;
+    color: var(--primary);
+    transition: var(--default-transition);
+    position: relative;
+}
+
+nav {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: var(--white);
+}
+
+nav .icon {
+    color: var(--white);
+    position: absolute;
+    transform: translateX(-25px);
+}
+
+i.menu-button {
+    cursor: pointer;
+    transition: var(--default-transition);
+}
+
+header i.menu-button:hover {
+    filter: grayscale();
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/responsive/header.css">
+    <title>ITpSolving</title>
+</head>
+<body>
+    
+    <header>
+        <div id="logo-nav">
+            <h1><img src="./assets/logo.svg" alt="ITpSolving"></h1>
+            <nav>
+                <a href="#"><img class="icon" src="./assets/icons/monitor.svg"> HARDWARE</a>
+                <a href="#"><img class="icon" src="./assets/icons/cube.svg"> SOFTWARE</a>
+                <a href="#"><img class="icon" src="./assets/icons/info.svg"> SOBRE</a>
+            </nav>
+        </div>
+        <div class="buttons" id="buttons">
+            <button class="button primary-button"><img class="icon" src="./assets/icons/user2.svg"> LOGIN</button>
+            <button class="button secondary-button"><img class="icon" src="./assets/icons/save2.svg"> CADASTRO</button>
+        </div>
+
+        <!--MOBILE-->
+        <i id="menu-button" class="menu-button"><img src="./assets/icons/menu.svg" alt="Menu"></i>
+        <!--END MOBILE-->
+
+    </header>
+
+    <!--MOBILE-->
+    <div class="mobile-menu" id="modal">
+        <div class="top">
+            <h1><img src="./assets/logo.svg" alt="ITpSolving"></h1>
+            <i id="close-button" class="menu-button"><img src="./assets/icons/close.svg"></i>
+        </div>
+        <a href="#"><img class="icon" src="./assets/icons/monitor.svg"> HARDWARE</a>
+        <a href="#"><img class="icon" src="./assets/icons/cube.svg"> SOFTWARE</a>
+        <a href="#"><img class="icon" src="./assets/icons/info.svg"> SOBRE</a>
+        <div>
+            <button class="button primary-button"><img class="icon" src="./assets/icons/user.svg"> LOGIN</button>
+            <button class="button secondary-button"><img class="icon" src="./assets/icons/save.svg"> CADASTRO</button>
+        </div>
+    </div>
+    <!--END MOBILE-->
+
+    <script src="./scripts/header.js"></script>
+</body>
+</html>
