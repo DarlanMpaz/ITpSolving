@@ -9,7 +9,7 @@
 
     /*TEXT-SIZES*/
     --link-size: 16px;
-    --button-size: 15px;
+    --button-size: 12px;
     --paragraph-size: 15px;
     --mobile-size: 18px;
 
@@ -18,5 +18,5 @@
     --secondary-font: 'Montserrat';
 
     /*TRANSITION*/
-    --default-transition: ease-out 0.3s;
+    --default-transition: 0.1s;
 }

@@ -6,11 +6,11 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     background: var(--black);
     padding: 50px;
     margin: 0;
-    width: 300px;
+    width: 100%;
     transition: ease-in-out;
 }
 
@@ -18,6 +18,10 @@
     margin: 10px 30px;
     font-size: var(--mobile-size);
     position: relative;
+}
+
+.mobile-menu a:hover {
+    color: var(--white);
 }
 
 .mobile-menu a img {
@@ -30,4 +34,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.mobile-menu .links {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.mobile-menu .links a {
+    margin: 20px 30px;
+}
+
+.mobile-menu .buttons {
+    margin-bottom: 30px;
 }
