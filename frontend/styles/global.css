@@ -12,6 +12,13 @@
     padding: 0;
 }
 
+h1 {
+    font-family: var(--terciary-font);
+    font-size: var(--mobile-size);
+    font-weight: normal;
+
+}
+
 body {
     background-color: var(--background);
 }

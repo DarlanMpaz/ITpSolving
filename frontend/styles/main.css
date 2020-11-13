@@ -14,19 +14,14 @@ main .main-content {
 
 .tittle {
     margin: 2em 0;
-    /* position: relative; */
 }
-
-/* .tittle h1 {
-    position: relative;
-} */
 
 .tittle .mask {
     position: absolute;
     top: -35px;
-    transform: translatex(-240px);
+    transform: translatex(-210px);
     font-size: 6em;
-    font-family: var(--secondary-font);
+    font-family: var(--terciary-font);
     font-weight: bold;
     color: var(--mask-color);
     z-index: -10;
