@@ -6,7 +6,7 @@
 * {
     box-sizing: border-box;
     font-size: var(--paragraph-size);
-    font-family: var(--primary-font), sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     color: var(--text);
     margin: 0;
     padding: 0;
@@ -30,6 +30,7 @@ a {
     color: var(--primary);
     transition: var(--default-transition);
     position: relative;
+    font-family: var(--primary-font);
 }
 
 nav {
@@ -57,6 +58,17 @@ i.menu-button {
 
 header i.menu-button:hover {
     filter: grayscale();
+}
+
+input {
+    background: var(--input);
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 700px;
+    font-size: var(--paragraph-size);
+    position: relative;
 }
 
 .hidden {

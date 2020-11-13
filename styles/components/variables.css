@@ -6,6 +6,9 @@
     --text2: #656565;
     --primary: #38C7BD;
     --background: #252836;
+    --input: #1B1B25;
+    --input-text: #13151a;
+    --mask-color: #232633;
 
     /*TEXT-SIZES*/
     --link-size: 16px;
@@ -16,6 +19,7 @@
     /*FONTS*/
     --primary-font: 'Ubuntu Condensed';
     --secondary-font: 'Montserrat';
+    --terciary-font: 'Ubuntu';
 
     /*TRANSITION*/
     --default-transition: 0.1s;

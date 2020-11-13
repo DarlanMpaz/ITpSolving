@@ -1,0 +1,44 @@
+main {
+    height: 80vh;
+}
+
+main .main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.tittle {
+    margin: 2em 0;
+    /* position: relative; */
+}
+
+/* .tittle h1 {
+    position: relative;
+} */
+
+.tittle .mask {
+    position: absolute;
+    top: -35px;
+    transform: translatex(-240px);
+    font-size: 6em;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--mask-color);
+    z-index: -10;
+}
+
+main .main-content .search-box {
+    min-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box img {
+    /* position: absolute; */
+    transform: translatex(-45px);
+}
